@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SaladApp</string>
+
+    <string name="facebook_app_id">676906832509042</string>
+    <string name="fb_login_protocol_scheme">fb676906832509042</string>
+    <string name="loginsuccess">Successfully Logged in</string>
+    <string name="logincancel">Login Cancelled</string>
+    <string name="loginerror">Login Error</string>
+
+</resources>

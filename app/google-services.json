@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "752649872474",
+    "firebase_url": "https://saladapp-567c4.firebaseio.com",
+    "project_id": "saladapp-567c4",
+    "storage_bucket": "saladapp-567c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752649872474:android:624dfba229f34266",
+        "android_client_info": {
+          "package_name": "com.example.alejo.saladapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752649872474-1bng1g7rbuf10sk55n26536du4tpd2k8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alejo.saladapp",
+            "certificate_hash": "5db94860b5fc0ac8dcbd54341551c7e30b2cfeec"
+          }
+        },
+        {
+          "client_id": "752649872474-4g6nauj9slnpotm2ttoo5gooceb1k4vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzYSHnVjeI4UtR-QA6A7IeboT-8Vw0HR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752649872474-4g6nauj9slnpotm2ttoo5gooceb1k4vq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
