@@ -4,25 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context="com.example.alejo.saladapp.LoginActivity">
 
+
     <ScrollView
-        android:layout_width="368dp"
-        android:layout_height="495dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.facebook.login.widget.LoginButton
-                android:layout_width="wrap_content"
+
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Vamos Bien"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center"
-                android:id="@+id/bLoginFB"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="30dp"/>
+                android:src="@mipmap/ic_launcher"/>
+
+
+                <com.facebook.login.widget.LoginButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/bLoginFB" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+
+
+                <com.google.android.gms.common.SignInButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/bLoginGgl">
+
+                </com.google.android.gms.common.SignInButton>
+
+
 
 
         </LinearLayout>

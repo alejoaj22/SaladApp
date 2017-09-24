@@ -1,10 +1,36 @@
 <resources>
-    <string name="app_name">SaladApp</string>
+    <string name="app_name">Vamos Bien</string>
 
     <string name="facebook_app_id">676906832509042</string>
     <string name="fb_login_protocol_scheme">fb676906832509042</string>
-    <string name="loginsuccess">Successfully Logged in</string>
-    <string name="logincancel">Login Cancelled</string>
-    <string name="loginerror">Login Error</string>
+    <string name="loginsuccess">Ingreso satisfactorio</string>
+    <string name="logincancel">Ingreso cancelado</string>
+    <string name="loginerror">Error al ingresar</string>
+    <string name="fbdesc">¡Aquí podrás ingresar por facebook!</string>
+    <string name="bname">Enviar</string>
+    <string name="Nombre">Nombre conductor:</string>
+    <string name="placa">Placa:</string>
+    <string name="calificar">Califica el viaje:</string>
+    <string name="codigo">Codigo del bus:</string>
+    <string name="ruta">Codigo de la ruta:</string>
+    <string name="miperfil">Mi perfil</string>
+    <string name="cerrarSes">Cerrar sesión</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logOut">Cerrar sesión</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="opcion1">El conductor infringió el límite de velocidad.</string>
+    <string name="opcion2">El conductor irrespetó una señal de tránsito.</string>
+    <string name="opcion3">El conductor invadió carriles designados.</string>
+    <string name="opcion4">El conductor permitió el ingreso a venteros ambulantes.</string>
+    <string name="opcion5">El conductor dejó subir gente por la puerta de atras, o sobre los torniquetes.</string>
+    <string name="pregunta">¿Cómo calificarías la labor del conductor?</string>
 
 </resources>
